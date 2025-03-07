@@ -1,0 +1,162 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+  HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/*HEADER*/
+
+header {
+  color: white;
+}
+
+.header-container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.header-container .logo {
+  align-items: center;
+  margin: 20px;
+  justify-content: flex-start;
+}
+
+.header-container .logo img {
+  width: 400px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.header-container .nav-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding-right: 20px;
+}
+
+.header-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container ul li {
+  width: 50px;
+  list-style: none;
+  font-size: 12px;
+}
+
+.header-container ul li:hover {
+  text-decoration: underline solid;
+  cursor: pointer;
+}
+
+/*MAIN CONTENT*/
+
+.content-container {
+  margin-top: 150px;
+  width: 100%;
+  color: black;
+}
+
+.content-container h2 {
+  padding: 20px;
+}
+
+.content-container img {
+  width: 100%;
+  height: 521px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*TOPPER*/
+
+.content-topper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200;
+  gap: 50px;
+  padding: 20px;
+}
+
+.content-topper img {
+  width: auto;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 45%;
+  box-shadow: gray 5px 1px 8px 1px;
+}
+
+.content-topper h3 {
+  font-size: 28px;
+  padding: 50px;
+  align-content: center;
+  text-align: left;
+  box-shadow: gray 10px 10px 14px 1px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
+}
+
+/*SECTIONS*/
+
+.section-container {
+  background-color: rgb(230, 230, 230);
+  border-radius: 3px;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: gray 5px 5px 14px 1px;
+}
+
+.section-container p {
+  line-height: 1.5;
+}
+
+.section-container h3 {
+  margin: 20px;
+}
+
+#section-1 {
+  display: flex;
+  width: 80%;
+  margin-right: 40%;
+  align-items: center;
+  gap: 20px;
+}
+
+#section-1 p {
+  text-align: justify;
+}
+
+#section-1 img {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
+
+#section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  margin-left: 15%;
+  align-items: center;
+  gap: 20px;
+}
+
+#section-2 img {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
