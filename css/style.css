@@ -1,7 +1,7 @@
 /*STYLES*/
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   color: black;
 }
@@ -175,6 +175,7 @@ header {
   margin-top: 100px;
   margin-bottom: 50px;
   padding-bottom: 20px;
+  gap: 40px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -200,17 +201,25 @@ header {
 
 #img1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
   padding-left: 40px;
+  gap: 50px;
 }
 
 #img2 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row-reverse;
   width: 80%;
+  gap: 50px;
 }
 
 #img3 {
   display: flex;
+  align-items: center;
   width: 60%;
+  gap: 50px;
 }
