@@ -45,7 +45,7 @@ git clone [https://github.com/bankus92/en-pointe-air.git]
 2. Navigate to the project directory:
 
 ```bash
-cd en-pinte-air
+cd en-pointe-air
 ```
 
 3. Open the `index.html` file in your preferred code editor and start customizing the template.
