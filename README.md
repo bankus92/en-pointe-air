@@ -1,5 +1,3 @@
-Sure, Justin! Here's a template for the README file for your static website project. Feel free to customize it as needed:
-
 ---
 
 # Static Website Template
