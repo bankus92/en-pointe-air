@@ -69,11 +69,16 @@ header {
   top: 180px;
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  box-shadow: gray 5px 1px 8px 1px;
+  border-radius: 5px;
+  background-color: white(0.74);
 }
 
 .social-nav {
   width: 30px;
-  height: 100px;
+  height: 70px;
 }
 
 .social-nav-container img {
@@ -113,7 +118,7 @@ header {
   align-items: center;
   height: 200;
   gap: 50px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .content-topper img {
@@ -171,7 +176,7 @@ header {
   background-color: rgb(230, 230, 230);
   border-radius: 3px;
   width: 100%;
-  margin: 20px;
+  margin: 40px;
   padding: 20px;
   box-shadow: gray 5px 5px 14px 1px;
 }
