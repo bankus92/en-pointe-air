@@ -61,6 +61,29 @@ header {
   cursor: pointer;
 }
 
+/*SOCIAL NAV*/
+
+.social-nav-container {
+  position: fixed;
+  left: 0;
+  top: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-nav {
+  width: 30px;
+  height: 100px;
+}
+
+.social-nav-container img {
+  width: 100%;
+}
+
+.buildzoom {
+  padding: 4px;
+}
+
 /*MAIN CONTENT*/
 
 .content-container {
