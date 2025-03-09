@@ -4,7 +4,7 @@ Sure, Justin! Here's a template for the README file for your static website proj
 
 # Static Website Template
 
-Welcome to the **Static Website Template** project! This template is designed to help you quickly build and deploy a static website using assets from [Your Colleague's Business Name].
+Welcome to the **Static Website Template** project! This template is designed to help you quickly build and deploy a static website using assets from En Pointe Air.
 
 ## Table of Contents
 
